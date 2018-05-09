@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+Programmer: John VanDyke
+Class ID: jvandyk5713
+Lab #3: Sensory Explosion
+CIS 2610: Business Mobile Programming
+Fall 2015
+Due date: 11/12/15
+Date completed: 11/12/15
+*************************************
+* strings.xml stores all of the information for strings that are used through out the application.
+* The reason why strings are created, are so widgets and variables can use text or images and
+* they only have to be changed once.  An important string is @string/imgAlbum.  This is where the
+* large image that a user selects in OtherAlbumsActivity.  The image that the user selects is passed
+* to this string and then is displayed in an ImageView in the layout file.
+*************************************
+-->
+
+    <string name="app_name">No Closer To Heaven Preview</string>
+    <string name="albumArt">No Closer To Heaven Album Art</string>
+    <string name="cardinalsPreviewImage">Cardinals Preview Image</string>
+    <string name="cigarettesAndSaintsPreviewImage">Cigarettes and Saints Preview Image</string>
+    <string name="imgCardinals">imageCardinals</string>
+    <string name="btnPlayCardinals">Play Cardinals</string>
+    <string name="imgCigarettesAndSaints">imageCigarettesAndSaints</string>
+    <string name="btnPlayCigarettesAndSaints">Play Cigarettes and Saints</string>
+    <string name="imgAlbum">Album Images</string>
+
+</resources>

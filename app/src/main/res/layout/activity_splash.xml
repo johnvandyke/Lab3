@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".SplashActivity">
+
+    <!--
+Programmer: John VanDyke
+Class ID: jvandyk5713
+Lab #3: Sensory Explosion
+CIS 2610: Business Mobile Programming
+Fall 2015
+Due date: 11/12/15
+Date completed: 11/12/15
+*************************************
+* There is only one widget in the activity_splash.xml file.  The widget is a TextView tha contains
+* android:background to display a background image that is stored in the drawables folder.
+*************************************
+-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSplashBackgroundImage"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/thewonderyearslogo"/>
+</RelativeLayout>

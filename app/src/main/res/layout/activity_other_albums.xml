@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context="edu.wmich.lab3jvandyk5713.OtherAlbumsActivity">
+
+    <!--
+Programmer: John VanDyke
+Class ID: jvandyk5713
+Lab #3: Sensory Explosion
+CIS 2610: Business Mobile Programming
+Fall 2015
+Due date: 11/12/15
+Date completed: 11/12/15
+*************************************
+*This is the layout file for OtherAlbumsActivity.java.  It uses a linear layout, which displays all
+widgets in a vertical layout.  This XML file also contains a GridView to display images.  This view
+is populated in the Java file.  The ImageView in this layout file is used to display a larger version
+of the picture that the user selects in the GridView.
+*************************************
+-->
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:id="@+id/gridViewAlbums"
+        android:numColumns="3"
+        android:columnWidth="160dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="5dp" />
+
+    <ImageView
+        android:id="@+id/imgAlbum"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/imgAlbum"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
